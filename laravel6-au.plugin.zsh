@@ -46,3 +46,20 @@ alias tinker="artisan tinker"
 alias aui='artisan ui'
 ## Bring the application out of maintenance mod
 alias aup='artisan up'
+
+# auth
+## Flush expired password reset tokens
+alias aaucr='artisan auth:clear-resets'
+# cache
+## Flush the application cache
+alias acacle='artisan cache:clear'
+## Remove an item from the cache
+alias acafor='artisan cache:forget'
+## Create a migration for the cache database table
+alias acatab='artisan cache:table'
+
+# config
+## reate a cache file for faster configuration loading
+alias acocac='artisan config:cache'
+## Remove the configuration cache file
+alias acocle='artisan config:clear'
