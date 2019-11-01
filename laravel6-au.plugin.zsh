@@ -149,3 +149,31 @@ alias anotab='artisan notifications:table'
 # optimize
 ## Remove the cached bootstrap files
 alias aopcle='artisan optimize:clear'
+
+# queue
+## List all of the failed queue jobs
+alias aqufai='artisan queue:failed'
+## Create a migration for the failed queue jobs database table
+alias aqufait='artisan queue:failed-table'
+## Flush all of the failed queue jobs
+alias aquflu='artisan queue:flush'
+## Delete a failed queue job
+alias aqufor='artisan queue:forget'
+## Listen to a given queue
+alias aqulis='artisan queue:listen'
+## Restart queue worker daemons after their current job
+alias aqures='artisan queue:restart'
+## Retry a failed queue job
+alias aquret='artisan queue:retry'
+## Create a migration for the queue jobs database table
+alias aqutab='artisan queue:table'
+## Start processing jobs on the queue as a daemon
+alias aquwor='artisan queue:work'
+
+# route
+## Create a route cache file for faster route registration
+alias arocac='artisan route:cache'
+## Remove the route cache file
+alias arocle='artisan route:clear'
+## List all registered routes
+alias arolis='artisan route:list'
