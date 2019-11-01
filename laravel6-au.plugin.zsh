@@ -8,6 +8,36 @@ function artisan() {
   fi
 }
 
+# phpunit
+function php_unit() {
+  if [ -f vendor/bin/phpunit ]; then
+    vendor/bin/phpunit $*
+  else
+    phpunit $*
+  fi
+}
+
+## phpunit
+alias pu="php_unit"
+## Filter which tests to run
+alias puf="php_unit --filter"
+## Filter which testsuite to run
+alias put="php_unit --testsuite"
+## Only runs tests from the specified group(s)
+alias pug="php_unit --group"
+## Exclude tests from the specified group(s)
+alias pueg="php_unit --exclude-group"
+## List available test groups
+alias pulg="php_unit --list-groups"
+## List available test suites
+alias puls="php_unit --list-suites"
+## List available tests
+alias pult="php_unit --list-tests"
+## List available tests in XML format
+alias pultx="php_unit --list-tests-xml"
+## Only search for test in files with specified suffix(es). Default: Test.php,.phpt
+alias puts="php_unit --test-suffix"
+
 # general
 alias a='artisan'
 ## Display this application version
