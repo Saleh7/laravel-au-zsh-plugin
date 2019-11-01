@@ -41,6 +41,18 @@ git clone https://github.com/Saleh7/laravel-au-zsh-plugin.git laravel-au
 ```bash
 plugins=(.... laravel-au)
 ```
+### Aliases PHPUnit
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| pu  | `vendor/bin/phpunit`    |phpunit|
+| puf  | `vendor/bin/phpunit --filter`    |Filter which tests to run|
+| put  | `vendor/bin/phpunit --testsuite`    |Filter which testsuite to run|
+| pug  | `vendor/bin/phpunit --group`    |Only runs tests from the specified group(s)|
+| pueg  | `vendor/bin/phpunit --exclude-group`    |Exclude tests from the specified group(s)|
+| pulg  | `vendor/bin/phpunit --list-groups`    |List available test groups|
+| puls  | `vendor/bin/phpunit --list-suites`    |List available test suites|
+| pult  | `vendor/bin/phpunit --list-tests`    |List available tests|
 
 ### Aliases Artisan
 
