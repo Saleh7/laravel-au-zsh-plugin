@@ -181,3 +181,25 @@ alias arolis='artisan route:list'
 # schedule
 ## Run the scheduled commands
 alias ascrun='artisan schedule:run'
+
+# session
+## Create a migration for the session database table
+alias asetab='artisan session:table'
+
+# storage
+## Create a symbolic link from "public/storage" to "storage/app/public"
+alias astlin='artisan storage:link'
+
+# ui
+## Scaffold basic login and registration views and routes
+alias auiaut='artisan ui:auth'
+
+# vendor
+## Publish any publishable assets from vendor packages
+alias avepub='artisan vendor:publish'
+
+# view
+## Compile all of the application's Blade templates
+alias avicac='artisan view:cache'
+## Clear all compiled view files
+alias avicle='artisan view:clear'
