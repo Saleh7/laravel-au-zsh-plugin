@@ -127,3 +127,25 @@ alias amarul='artisan make:rule'
 alias amasee='artisan make:seeder'
 ## Create a new test class
 alias amates='artisan make:test'
+
+# migrate
+## Drop all tables and re-run all migrations
+alias amifre='artisan migrate:fresh'
+## Create the migration repository
+alias amiins='artisan migrate:install'
+## Reset and re-run all migrations
+alias amiref='artisan migrate:refresh'
+## Rollback all database migrations
+alias amires='artisan migrate:reset'
+## Rollback the last database migration
+alias amirol='artisan migrate:rollback'
+## Show the status of each migration
+alias amista='artisan migrate:status'
+
+# notifications
+## Create a migration for the notifications table
+alias anotab='artisan notifications:table'
+
+# optimize
+## Remove the cached bootstrap files
+alias aopcle='artisan optimize:clear'
