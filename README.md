@@ -66,3 +66,162 @@ plugins=(.... laravel-au)
 |tinker     | `php artisan tinker`     |Interact with your application|
 |aui     | `php artisan ui`     |Swap the front-end scaffolding for the application|
 |aup     | `php artisan up`     |Bring the application out of maintenance mod|
+
+#### Auth
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| aaucr       | `php artisan auth:clear-resets` | Flush expired password reset tokens  |
+
+#### cache
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| acacle  | `php artisan cache:clear`    | Flush the application cache|
+| acafor | `php artisan cache:forget`     | Remove an item from the cache|
+| acatab | `php artisan cache:table` | Create a migration for the cache database table |
+
+#### config
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| acocac  | `php artisan config:cache`    | reate a cache file for faster configuration loading|
+| acocle | `php artisan config:clear`     | Remove the configuration cache file|
+
+#### db
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| adbsee  | `php artisan db:seed`    | Seed the database with records|
+| adbwip | `php artisan db:wipe`     | Drop all tables, views, and types|
+
+#### event
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| aevcac  | `php artisan event:cache`    |Discover and cache the application's events and listeners|
+| aevcle | `php artisan event:clear`     |Clear all cached events and listeners|
+| aevgen | `php artisan event:generate`     |Generate the missing events and listeners based on registration|
+| aevlis | `php artisan event:list`     |List the application's events and listeners|
+
+#### key
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| akegen  | `php artisan key:generate`    |Set the application key|
+
+#### make
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| amacha  | `php artisan make:channel`    |Create a new channel class|
+| amacom  | `php artisan make:command`    |Create a new Artisan command|
+| amacon  | `php artisan make:controller`    |Create a new controller class|
+| amaeve  | `php artisan make:event`    |Create a new event class|
+| amaexc  | `php artisan make:exception`    |Create a new custom exception class|
+| amafac  | `php artisan make:factory`    |Create a new model factory|
+| amajob  | `php artisan make:job`    |Create a new job class|
+| amalis  | `php artisan make:listener`    |Create a new event listener class|
+| amamai  | `php artisan make:mail`    |Create a new email class|
+| amamid  | `php artisan make:middleware`    |Create a new middleware class|
+| amamig  | `php artisan make:migration`    |Create a new migration file|
+| amamod  | `php artisan make:model`    |Create a new Eloquent model class|
+| amanot  | `php artisan make:notification`    |Create a new notification class|
+| amaobs  | `php artisan make:observer`    |Create a new observer class|
+| amapol  | `php artisan make:policy`    |Create a new policy class|
+| amapro  | `php artisan make:provider`    |Create a new service provider class|
+| amareq  | `php artisan make:request`    |Create a new form request class|
+| amares  | `php artisan make:resource`    |Create a new resource|
+| amarul  | `php artisan make:rule`    |Create a new validation rule|
+| amasee  | `php artisan make:seeder`    |Create a new seeder class|
+| amates  | `php artisan make:test`    |Create a new test class|
+
+#### migrate
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| amifre  | `php artisan migrate:fresh`    |Drop all tables and re-run all migrations|
+| amiins  | `php artisan migrate:install`    |Create the migration repository|
+| amiref  | `php artisan migrate:refresh`    |Reset and re-run all migrations|
+| amires  | `php artisan migrate:reset`    |Rollback all database migrations|
+| amirol  | `php artisan migrate:rollback`    |Rollback the last database migration|
+| amista  | `php artisan migrate:status`    |Show the status of each migration|
+
+#### notifications
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| anotab  | `php artisan notifications:table`    |Create a migration for the notifications table|
+
+#### optimize
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| aopcle  | `php artisan optimize:clear`    |Remove the cached bootstrap files|
+
+#### package
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| apadis  | `artisan package:discover`    |Rebuild the cached package manifest|
+
+#### queue
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| aqufai  | `php artisan queue:failed`    |List all of the failed queue jobs|
+| aqufait  | `php artisan queue:failed-table`    |Create a migration for the failed queue jobs database table|
+| aquflu  | `php artisan queue:flush`    |Flush all of the failed queue jobs|
+| aqufor  | `php artisan queue:forget`    |Delete a failed queue job|
+| aqulis  | `php artisan queue:listen`    |Listen to a given queue|
+| aqures  | `php artisan queue:restart`    |Restart queue worker daemons after their current job|
+| aquret  | `php artisan queue:retry`    |Retry a failed queue job|
+| aqutab  | `php artisan queue:table`    |Create a migration for the queue jobs database table|
+| aquwor  | `php artisan queue:work`    |Start processing jobs on the queue as a daemon|
+
+
+#### route
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| arocac  | `php artisan route:cache`    |Create a route cache file for faster route registration|
+| arocle  | `php artisan route:clear`    |Remove the route cache file|
+| arolis  | `php artisan route:list`    |List all registered routes|
+
+
+#### schedule
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| ascrun  | `php artisan schedule:run`    |Run the scheduled commands|
+
+
+#### session
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| asetab  | `php artisan session:table`    |Create a migration for the session database table|
+
+#### storage
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| astlin  | `php artisan storage:link`    |Create a symbolic link from `public/storage` to `storage/app/public`|
+
+#### ui
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| auiaut  | `php artisan ui:auth`    |Scaffold basic login and registration views and routes|
+
+#### vendor
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| avepub  | `php artisan vendor:publish`    |Publish any publishable assets from vendor packages|
+
+#### view
+
+| Alias     | Command                      | Description                                        |
+|-----------|------------------------------|----------------------------------------------------|
+| avicac  | `php artisan view:cache`    |Compile all of the application's Blade templates|
+| avicle  | `php artisan view:clear`    |Clear all compiled view files|
+
