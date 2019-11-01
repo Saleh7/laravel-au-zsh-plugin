@@ -63,3 +63,23 @@ alias acatab='artisan cache:table'
 alias acocac='artisan config:cache'
 ## Remove the configuration cache file
 alias acocle='artisan config:clear'
+
+# db
+## Seed the database with records
+alias adbsee='artisan db:seed'
+## Drop all tables, views, and types
+alias adbwip='artisan db:wipe'
+
+# event
+## Discover and cache the application's events and listeners
+alias aevcac='artisan event:cache'
+## Clear all cached events and listeners
+alias aevcle='artisan event:clear'
+## Generate the missing events and listeners based on registration
+alias aevgen='artisan event:generate'
+## List the application's events and listeners
+alias aevlis='artisan event:list'
+
+# key
+## Set the application key
+alias akegen='artisan key:generate'
