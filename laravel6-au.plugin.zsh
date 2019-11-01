@@ -83,3 +83,47 @@ alias aevlis='artisan event:list'
 # key
 ## Set the application key
 alias akegen='artisan key:generate'
+
+# make
+## Create a new channel class
+alias amacha='artisan make:channel'
+## Create a new Artisan command
+alias amacom='artisan make:command'
+## Create a new controller class
+alias amacon='artisan make:controller'
+## Create a new event class
+alias amaeve='artisan make:event'
+## Create a new custom exception class
+alias amaexc='artisan make:exception'
+## Create a new model factory
+alias amafac='artisan make:factory'
+## Create a new job class
+alias amajob='artisan make:job'
+## Create a new event listener class
+alias amalis='artisan make:listener'
+## Create a new email class
+alias amamai='artisan make:mail'
+## Create a new middleware class
+alias amamid='artisan make:middleware'
+## Create a new migration file
+alias amamig='artisan make:migration'
+## Create a new Eloquent model class
+alias amamod='artisan make:model'
+## Create a new notification class
+alias amanot='artisan make:notification'
+## Create a new observer class
+alias amaobs='artisan make:observer'
+## Create a new policy class
+alias amapol='artisan make:policy'
+## Create a new service provider class
+alias amapro='artisan make:provider'
+## Create a new form request class
+alias amareq='artisan make:request'
+## Create a new resource
+alias amares='artisan make:resource'
+## Create a new validation rule
+alias amarul='artisan make:rule'
+## Create a new seeder class
+alias amasee='artisan make:seeder'
+## Create a new test class
+alias amates='artisan make:test'
