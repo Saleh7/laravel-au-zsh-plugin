@@ -177,3 +177,7 @@ alias arocac='artisan route:cache'
 alias arocle='artisan route:clear'
 ## List all registered routes
 alias arolis='artisan route:list'
+
+# schedule
+## Run the scheduled commands
+alias ascrun='artisan schedule:run'
