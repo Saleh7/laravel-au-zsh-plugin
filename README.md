@@ -237,3 +237,7 @@ plugins=(.... laravel-au)
 | avicac  | `php artisan view:cache`    |Compile all of the application's Blade templates|
 | avicle  | `php artisan view:clear`    |Clear all compiled view files|
 
+
+### License
+
+The MIT License (MIT). Please see [License File](https://github.com/crazybooot/laravel-zsh-plugin/blob/master/LICENSE.MD) for more information.
